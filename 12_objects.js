@@ -52,3 +52,26 @@ console.log(Object.values(tindeUser));// convert value
 console.log(Object.entries(tindeUser));// separate every key value into array
 
 console.log(tindeUser.hasOwnProperty('isLogged'));// check property have or not
+
+// +++++++++++++++++++++++++++++++++  API OBJECT +++++++++++++++++++++++++++++++++
+
+const course={
+    cours_name:"js in hindi",
+    price:"999",
+    courseInstructor:"Meet"
+}
+
+const{courseInstructor:inst}=course // object restructore
+
+console.log(inst);
+
+// {
+//     "name":"meet",
+//     "coursName":"c language",
+//     "price":"free"
+// }
+
+[
+    {},
+    {}
+]

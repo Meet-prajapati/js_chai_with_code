@@ -1,6 +1,0 @@
-for suggestion : ctrl+ space
-
--> 17 imp for imp
-
-
--> 18 imp for question in it call stack and infromation about the how javascript is run and code will execute 

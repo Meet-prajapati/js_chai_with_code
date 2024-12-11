@@ -1,5 +1,3 @@
-
-// function chai(){
-//     let username="meet"
-//     console.log(this.usrname);
-// }
+coding.forEach(codn => {
+//     // console.log(codn)
+// });

@@ -5,8 +5,21 @@ for suggestion : ctrl+ space
 
 -> 18 imp for question in it call stack and infromation about the how javascript is run and code will execute 
 -> 19 imp for trutly value and some imp question are mention in that video 
+-> 21,22,23 (23) is imp lecture for interview purpose 
 
 
 false == 0    ans True
 false == ' '  ans True
 0 == '' ans true 
+
+-> For in loop is use when we are working with the object 
+-> for of loop is use when we are working with the array for this reason for off loop is use 
+        -> we can also use for in loop for printing the for in loop but some syntax is use 
+
+
+-> When we Write Something Between { } this than we must have to return the value without it we can not display
+-> But When We Write the code btween the () than we do not wtite a retrun key word (23_foreachloop.js)
+
+
+=> filter is used for checking the condtion of array or anything
+=> map method is used for  changing the value of the array means for updation 

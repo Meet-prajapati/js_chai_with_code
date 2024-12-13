@@ -6,6 +6,9 @@ for suggestion : ctrl+ space
 -> 18 imp for question in it call stack and infromation about the how javascript is run and code will execute 
 -> 19 imp for trutly value and some imp question are mention in that video 
 -> 21,22,23 (23) is imp lecture for interview purpose 
+-> 25_reduc very most imp for billing
+-> 31 lecture FOR DOM basic 
+-> 32 IMP 
 
 
 false == 0    ans True
@@ -23,3 +26,40 @@ false == ' '  ans True
 
 => filter is used for checking the condtion of array or anything
 => map method is used for  changing the value of the array means for updation 
+
+
+++++++++++++++++++++++++++++++ DOM +++++++++++++++++++++++++++++++
+console.log(document) // Browser ma badhu batave
+
+
+Why We Write 
+document.getElementById('id_name') = >  Cause Document means our webpage and i want to access particular id 
+                                        for this reason we use getElementById .
+document.getElementById('id_name').innerHTML = "<p> Hello World </p>"
+
+innerHTML means it'll change the document value which is mention in the id 
+
+
+++++++++++++++++++   ++++++++++++++++++++++++++++++++
+Diffrenece Between 
+
+        innerContent                           |                               innerText
+       -> It will Display All                  |   -> it will Display only data Not Display the data which is none
+       the Data (Display None)                 |
+       data Also .                             |
+->title.textContent                            |  ->title.innerText
+                                               |         'DOM Learing on chai aur Code'         
+'DOM Learing on chai aur Code Text test        |
+                                               |
+                                               |
+
+lecture 32 
+
+        innerTextContent  : For Take a content of particular and change it (Hide Content Also Disply)
+        innerHTML  : For Take a content of particular and change it (It Will Display With HTML code)
+        innerText  : For Take a content of particular and change it 
+        queryselector : For Selecting a data and change it ||  li.style.background="blue"
+        querySelectorAll :  First We have to convert it into Array || Array.form('variable_name')  || Use Foreach
+        getElementById  : Easliyu Access and use 
+        getElementByClass
+        getElementByClassName  :  Access All by Foreach Also other loop Support but it is easy 

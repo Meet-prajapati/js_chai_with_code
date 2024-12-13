@@ -1,3 +1,4 @@
-coding.forEach(codn => {
-//     // console.log(codn)
-// });
+const myRed=myNum.reduce((acc,currval)=>
+    
+//     acc+currval,0;
+// )

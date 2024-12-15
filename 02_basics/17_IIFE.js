@@ -10,16 +10,18 @@
 // ()-> function defination
 // () -> function called 
 
-( () => {
-    console.log('DB CONNECETD TWO ');
-}) ();
+// ( () => {
+//     console.log('DB CONNECETD TWO ');
+// }) ();
 
-( (name) => {
-   // unnamed IIFE
-    console.log(`Hi this is : ${name}`)
-})('Meet')
+// ( (name) => {
+//    // unnamed IIFE
+//     console.log(`Hi this is : ${name}`)
+// })('Meet')
 
 
-
+(function ved(){
+    console.log("HEllo it's IIFE");
+})()
 
 

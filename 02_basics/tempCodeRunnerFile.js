@@ -1,4 +1,8 @@
-const myRed=myNum.reduce((acc,currval)=>
-    
-//     acc+currval,0;
-// )
+( () => {
+//     console.log('DB CONNECETD TWO ');
+// }) ();
+
+// ( (name) => {
+//    // unnamed IIFE
+//     console.log(`Hi this is : ${name}`)
+// })('Meet')

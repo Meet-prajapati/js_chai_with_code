@@ -29,10 +29,10 @@ if(Object.keys(empObj).length === 0){
 //    ++++++++++++++++ Nullish Coalescing Operator (??): nul undefined ++++++++++++++++++++++
 //  it is use for sefety purpose 
 let val1;
-// val1 = 5 ?? 10
+val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1= undefined ?? 12
-val1= null ?? 10 ?? 30 
+// val1= null ?? 10 ?? 30 
 console.log(val1);
 
 //  ++++++++++++++++++++++++++++++++++++ Terniary operator ++++++++++++++++++++++++++++++++++

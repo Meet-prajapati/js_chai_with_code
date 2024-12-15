@@ -38,6 +38,10 @@ myCding.forEach( (item) =>{
     // console.log(item.rno,item.name)
 })
 
+coding.forEach(cdn => {
+    console.log(cdn)
+});
+
 
 
 // ************************************* filter *************************************************

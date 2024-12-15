@@ -25,7 +25,7 @@ map.set('USA',"UNITED STATE OF AMERIC")
 // console.log(map)
 
 for (const [key,value] of map) {
-    // console.log(key ,':-' , value)
+    console.log(key ,':-' , value)
 }
 
 const myObj={

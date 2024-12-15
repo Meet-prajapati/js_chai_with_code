@@ -41,6 +41,7 @@ function addone (num){
 }
 
 
+
 addTwo(5)
 const addTwo=function(num){   // it is called expression caue it is used with variable here we can not use befor it declare 
     return num + 2

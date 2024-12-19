@@ -43,7 +43,7 @@ innerHTML means it'll change the document value which is mention in the id
 ++++++++++++++++++   ++++++++++++++++++++++++++++++++
 Diffrenece Between 
 
-        innerContent                           |                               innerText
+        textContent                           |                               innerText
        -> It will Display All                  |   -> it will Display only data Not Display the data which is none
        the Data (Display None)                 |
        data Also .                             |

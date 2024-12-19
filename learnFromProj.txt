@@ -1,0 +1,22 @@
+.targer it is used for targeting the value 
+
+++++++++++++++  for Converting a string value to integer ++++++++++++++++++++++
+
+-> We Used ParseInt (It will convert our input Value into integer)
+-> const height = parseInt(document.querySelector('#height').value);
+
+++++++++++++++ preventDefault +++++++++++++++++++++
+-> e.preventDefault(); // default j rakho
+
+
+++++++++++++++++ Date ++++++++++++++++++++++
+let date = new Date()
+console.log(date.toLocaleTimeString())
+
+
+setInterval : Ketla time pa6i mare ene continues use karvu 6 .  
+
+-> to create Rabdom Number 
+
+->   console.log(parseInt(Math.random()*100+1));
+

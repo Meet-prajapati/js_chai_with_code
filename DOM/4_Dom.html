@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai ur Code</title>
+   
+</head>
+<body style="background-color: #212121;color:white; ">
+    <ul class="language">
+        <li>JavaSCript</li>
+    </ul>
+</body>
+</html>
+<script>
+
+    // Basic Way to add In Document
+    function addLangauge(lanName){
+        const li=document.createElement('li');
+        li.innerHTML=`${lanName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLangauge("java");
+    addLangauge("Python");
+
+    // IT IS GOOD TO USE IN THIS 
+    function addOPtilanaguage(lanname){
+        const li=document.createElement('li');
+        li.appendChild(document.createTextNode(lanname))
+        document.querySelector('.language').appendChild(li)
+
+        }
+
+        addOPtilanaguage("vaibhav");
+
+
+        // ++++++++++++++++++ Edit ++++++++++++++++++++++++
+        const secondLan=document.querySelector("li:nth-child(2)")
+        // secondLan.innerHTML="Nojo"
+        const newli=document.createElement('li')
+        newli.textContent="Mojo"
+        secondLan.replaceWith(newli)
+
+        // ++++++++++++++++ Edit ++++++++++++++++++
+        const secondLans=document.querySelector("li:first-child")
+        console.log(secondLans)
+        secondLans.outerHTML='<li>Typescript</li>'
+
+        // ++++++++++++++ Remove +++++++++++++++++
+        // const lastlang=document.querySelector('li:last-child')
+        const lastlang=document.querySelector('li:nth-child(1)')
+        lastlang.remove()
+</script>
